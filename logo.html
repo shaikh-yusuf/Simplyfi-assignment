@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(33, 33, 33);
+      }
+
+      .main-containier {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        height: 250px;
+        width: 250px;
+        background-color: rgb(33, 33, 33);
+        transform: rotate(45deg);
+        /* background-color: red; */
+        border-top: 30px solid tomato;
+        border-right: 30px solid white;
+        border-bottom: 30px solid skyblue;
+        border-left: 30px solid lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box-content{
+        transform: rotate(-45deg);
+        color: #f8f8f8;
+       
+      }
+      .box-content > p{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 20px;
+      }
+      .box-content > h2{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 42px;
+      }
+      .and-sign{
+          color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-containier">
+      <div class="box">
+        <div class="box-content">
+          <h2>HTML<span class="and-sign">&</span>CSS</h2>
+          <p>design and build websites</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
